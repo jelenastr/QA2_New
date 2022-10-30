@@ -17,7 +17,7 @@ public class NumberService {
         } else {
             System.out.println("Start element is bigger than finish. Start: " + start + " Finish: " + finish);
 
-            for (int i = finish; i <= start; i++) {
+            for (int i = start; i >= finish; i--) {
                 System.out.println("Start: " + start + " Finish: " + finish);
                 sum = i + sum;
                 System.out.println("i: " + i + " sum: " + sum);
@@ -33,6 +33,7 @@ public class NumberService {
             System.out.println("Start element is less than finish.");
 
             for (int i = start; i <= finish; i++) {
+                System.out.println("Start: " + start + " Finish: " + finish);
                 if (i % 2 == 0) {
                     sum = i + sum;
                     System.out.println("i: " + i + " sum: " + sum);
@@ -43,7 +44,7 @@ public class NumberService {
         } else {
             System.out.println("Start element is bigger than finish. Start: " + start + " Finish: " + finish);
 
-            for (int i = finish; i <= start; i++) {
+            for (int i = start; i >= finish; i--) {
                 if (i % 2 == 0) {
                     sum = i + sum;
                     System.out.println("i: " + i + " sum: " + sum);
