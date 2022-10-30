@@ -3,8 +3,8 @@ package Lecture2;
 public class CalculatorLauncher {
 
     public static void main(String[] args) {
-        int a = 10;
-        int b = 5;
+        int a = 20;
+        int b = 10;
         Calculator calculator = new Calculator();
 
         int sum = calculator.sum(a, b);
@@ -17,7 +17,7 @@ public class CalculatorLauncher {
         System.out.println("Multiply is " + multi);
 
         int divis = calculator.division(a, b);
-        System.out.println("Division is" + divis);
+        System.out.println("Division is " + divis);
     }
 }
 
